@@ -2,7 +2,7 @@
   "name": "enatega-rider-app",
   "version": "5.0.0",
   "scripts": {
-    "start": "expo start --offline",
+    "start": "node api.js && expo start --offline",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
@@ -105,7 +105,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.7",
     "prettier": "2.0.5",
-    "prettier-config-standard": "^1.0.1"
+    "prettier-config-standard": "^7.0.0"
   },
   "private": true
 }
